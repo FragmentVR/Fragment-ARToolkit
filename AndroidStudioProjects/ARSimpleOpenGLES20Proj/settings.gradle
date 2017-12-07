@@ -1,0 +1,4 @@
+include ':aRSimpleOpenGLES20'
+include 'aRBaseLib'
+
+project(':aRBaseLib').projectDir = new File('../ARBaseLibProj/aRBaseLib')

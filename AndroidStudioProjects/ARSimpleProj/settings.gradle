@@ -1,0 +1,3 @@
+include ':aRSimple', 'aRBaseLib'
+
+project(':aRBaseLib').projectDir = new File('../ARBaseLibProj/aRBaseLib')
